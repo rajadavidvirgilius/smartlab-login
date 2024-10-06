@@ -1,0 +1,101 @@
+/* Layout Container */
+.login-container {
+    display: flex;
+    height: 100vh; /* Sesuaikan tinggi layar */
+  }
+  
+  /* Bagian Ilustrasi (Kiri) */
+  .left-section {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-section img {
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 190px;
+    width: 800px;
+    height: 500px;
+  }
+  
+  /* Bagian Form Login (Kanan) */
+  .right-section {
+    flex: 1;
+    height: min-content;
+    margin-top: 150px;
+    margin-right: 90px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 250px;
+  }
+  
+  /* Form Input Styling */
+  .input-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 200%;
+    min-width: fit-content;
+    align-items: center;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    width: 210%;
+    padding: 12px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+    font-size: 16px;
+    background-color: #2a2185;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background-color: #1f1a6e;
+  }
+  
+  /* Checkbox Styling */
+  .checkbox-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input {
+    margin-right: 10px;
+  }
+  
+  .checkbox-group label {
+    font-size: 14px;
+  }
+  
